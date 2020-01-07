@@ -1,0 +1,32 @@
+{
+  "name": "react-countdown-clock",
+  "version": "1.0.0",
+  "description": "Custom countdown clock for React.",
+  "main": "build/index.js",
+  "peerDependencies": {
+    "react": "^15.5.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack --watch",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "react": "^15.5.4",
+    "style-loader": "^1.1.2",
+    "webpack": "^2.6.1"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "css-loader": "^3.4.1",
+    "react-flexbox-grid": "^2.1.2",
+    "styled-components": "^4.3.2"
+  },
+  "author": "Callum Marriage <callummarriage19@gmail.com>",
+  "license": "ISC"
+}
