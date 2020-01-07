@@ -51,14 +51,12 @@ class CountdownClock extends Component {
                     diffInDays: 0,
                     diffInHours: 0,
                     diffInMins: 0,
-                    diffInSecs: 0
+                    diffInSecs: 0,
+                    finished: true
                 });
-
-                this.setState({finished: true});
 
                 if(this.props.afterFunction !== undefined){
                     this.props.afterFunction();
-
                 }
                 return
             }
