@@ -1,5 +1,5 @@
 {
-  "name": "react-countdown-clock",
+  "name": "react-custom-countdown-clock",
   "version": "1.0.0",
   "description": "Custom countdown clock for React.",
   "main": "build/index.js",
